@@ -6,7 +6,7 @@ visitarMainPage(){
         cy.visit('https://the-internet.herokuapp.com/')
 }
 
-clicarFormAuthentication(){
-        cy.get(':nth-child(21) > a').click()
+clicarShiftingContent(){
+        cy.get(':nth-child(39) > a').click()
     }
 }
